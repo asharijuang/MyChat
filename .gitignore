@@ -1,0 +1,9 @@
+fastlane/*
+Pods/*
+Podfile.lock
+Podfile.lockbup
+xcuserdata/*
+UniversalLib.xcscheme
+/MyChat.xcodeproj/xcuserdata/*
+/MyChat.xcworkspace/xcuserdata/*
+*.xcscheme
