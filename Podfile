@@ -6,8 +6,11 @@ target 'MyChat' do
   use_frameworks!
 
   # Pods for MyChat
-
-  target 'MyChatTests' do
+  pod 'Chat', :path => './Module/Chat'
+  pod 'Contacts', :path => './Module/Contacts'
+  pod 'Auth', :path => './Module/Auth'
+  
+target 'MyChatTests' do
     inherit! :search_paths
     # Pods for testing
   end
